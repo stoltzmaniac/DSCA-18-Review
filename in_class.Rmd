@@ -1,0 +1,54 @@
+---
+title: "In Class"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('tidyverse')
+library('caret')
+```
+
+
+Go through cheat sheet on slides to go through:
+```{r}
+dat = iris
+head(dat)
+```
+
+What algorithms could help us predict `Species`?
+  - 
+```{r}
+
+```
+
+
+
+
+How do you interpret the results?
+
+
+
+What are the pros / cons of the decision(s) you made?
+
+
+
+```{r}
+dat = ggplot2::diamonds
+head(dat)
+```
+
+What algorithms could help us predict `price`?
+```{r}
+
+```
+
+
+
+
+How do you interpret the results?
+
+
+
+What are the pros / cons of the decision(s) you made?
+
